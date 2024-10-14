@@ -1,4 +1,3 @@
-import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
@@ -12,10 +11,8 @@ import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
-import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
 import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
@@ -50,7 +47,7 @@ export const headerIntroData = {
   subtitle: "Fullstack Developer ",
   description: {
     de: "asdf",
-    en: "Highly skilled and motivated web developer with over 8 years of experience. Strong background in web development using modern JavaScript libraries such as React.js, Next.js, Node.js, and TypeScript, with a passion for creating intuitive user interfaces. Eager to learn and work with the latest technologies.",
+    en: "Highly skilled and motivated web developer with over 7 years of experience. Strong background in web development using modern JavaScript libraries such as React.js, Next.js, Node.js, and TypeScript, with a passion for creating intuitive user interfaces. Eager to learn and work with the latest technologies.",
   },
   buttons: [
     {
@@ -84,17 +81,14 @@ export const projectsData = [
       "Orchestrated the development of a visually captivating digital platform for Final Chapter, focusing on the seamless presentation of comics, immersive genre-based navigation, and an intuitive interface for readers and creators. This project integrated responsive design for optimized performance across devices, ensuring a cohesive user experience, while enabling streamlined content publishing, community interaction, and future scalability.",
     technologies: [
       { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "REST Api", icon: apiicon },
+      { name: "Tailwind", icon: tailwindcssicon },
       { name: "React", icon: reacticon },
       { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
-      { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
+      { name: "Next.Js", icon: nextjs },
+      { name: "Typescript", icon: typescripticon },
     ],
     image: tastyMockup,
-    deploymenturl: "https://github.com/truecolor1021/monster",
+    deploymenturl: "https://finalchapterxyz.vercel.app/home",
     githuburl: "https://github.com/truecolor1021/monster",
     githubicon: FiGithub,
     deploymenticon: FiLink,
@@ -113,7 +107,7 @@ export const projectsData = [
       "Spearheaded the end-to-end development and design of a cutting-edge, peer-to-peer gaming platform for Splash Sports, incorporating real-time contest management, seamless cross-platform responsiveness, and a scalable, cloud-based infrastructure; focused on delivering an engaging, user-centric interface with intuitive navigation to optimize player interaction and retention while ensuring high performance under varying loads, ultimately driving user acquisition, business growth, and competitive advantage.",
     technologies: [
       { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
+      { name: "Tailwind", icon: tailwindcssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "Spotify Api", icon: spotifyicon },
       { name: "React", icon: reacticon },
@@ -145,7 +139,7 @@ export const projectsData = [
       "In this project, I designed and developed an e-commerce website for RoofBag, a company specializing in waterproof rooftop cargo bags. The site is crafted to provide an intuitive shopping experience, featuring a clean layout with easy navigation and a responsive design suitable for all devices. Key highlights of the project include: A comprehensive product catalog with detailed descriptions and pricing. Integration of a secure payment gateway to ensure safe transactions. User-friendly interfaces for selecting colors, models, and accessories, along with free shipping notifications. Customer support features, including contact information and warranty details. This project showcases my skills in e-commerce solutions, emphasizing user experience and functional design to drive sales and customer satisfaction.",
     technologies: [
       { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
+      { name: "Tailwind", icon: tailwindcssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "React", icon: reacticon },
       { name: "JWT & Bcrypt", icon: jwticon },
@@ -177,7 +171,7 @@ export const projectsData = [
       "I developed FoodonDeal, an intuitive and feature-rich food delivery platform aimed at connecting local restaurants with customers. The platform allows users to easily search for restaurants by location or name and browse various cuisines such as African, American, Arabian, and Argentinian. Key features include: Location-based restaurant search for easy access to nearby dining options. Cuisine selection for a personalized browsing experience. Integrated news and events section, keeping users informed about food trends, health tips, and special events. An interactive discount system that offers customers special deals with a Spin the Wheel feature. Easy ordering system, allowing customers to choose food, place orders, and enjoy meals without hassle. Fully responsive design optimized for both desktop",
     technologies: [
       { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
+      { name: "Tailwind", icon: tailwindcssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "React", icon: reacticon },
       { name: "JWT & Bcrypt", icon: jwticon },
@@ -279,12 +273,6 @@ export const skillsDataWeb = [
         hash: "#Express",
         icon: [expressicon, expressiconwhite],
         color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "SASS/SCSS",
-        hash: "#SASS/SCSS",
-        icon: sassscssicon,
-        color: "#CC6699",
       },
       {
         title: "Graphql",
@@ -430,21 +418,27 @@ export const aboutMeData = {
   ],
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "General Tech Professional",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "I am a passionate technology enthusiast with a strong focus on solving complex challenges through innovative solutions. My expertise lies in blending hardware and software, with hands-on experience in product development and system integration. Whether navigating digital platforms or building physical prototypes, I thrive in creating practical solutions that align with business goals.",
       icon: hardwareicon,
     },
     {
-      title: "On the Fast Lane of Life",
+      title: "Developer/Engineer with a Focus on Innovation",
       description:
-        "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
+        "Technology is more than a career—it's my passion. From coding robust applications to working with cutting-edge hardware, I enjoy every aspect of the development process. I bring a detail-oriented mindset to every project, ensuring high-quality deliverables that meet both technical and business requirements.",
       icon: caricon,
     },
     {
-      title: "The Joy of Discovery as a Life Motto",
+      title: "Creative Technologist with Hands-On Expertise",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "I am driven by curiosity and a love for exploring both software and hardware technologies. Building solutions—whether through code or circuitry—feels like solving puzzles that unlock endless possibilities. I bring this creativity and problem-solving mindset to every project I undertake.",
+      icon: travelicon,
+    },
+    {
+      title: " Client-Focused Professional with Tech Expertise",
+      description:
+        "I thrive at the intersection of technology and business. Whether managing client projects, leading technical teams, or exploring new technologies, I aim to deliver impactful solutions tailored to meet business needs. I believe in continuous learning and leveraging the latest innovations to exceed expectations.",
       icon: travelicon,
     },
   ],
