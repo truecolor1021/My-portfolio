@@ -19,6 +19,7 @@ import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import tastyMockup from "../../assets/img/4.png";
 import finalchapter from "../../assets/img/foodondeal.png";
+import heartchain from "../../assets/img/Screenshot 2024-11-18 010735.png";
 import instorMockup from "../../assets/img/roofbags.png";
 import silentmoonMockup from "../../assets/img/splashsports.com_.png";
 import profilepicture from "../img/my photo.jpg";
@@ -186,6 +187,30 @@ export const projectsData = [
     image: finalchapter,
     deploymenturl: "https://www.foodondeal.com/",
     githuburl: "https://github.com/truecolor1021",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Heartchain",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+    description_EN:
+      "HeartChain Inu (HTCN) is an innovative cryptocurrency project designed to revolutionize the online matchmaking landscape by leveraging the power of blockchain technology and non-fungible tokens (NFTs).Built on the Sui blockchain, HeartChain Inu aims to create a decentralized platform where users can connect, communicate, and engage in meaningful relationships through unique digital assets.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "Tailwind", icon: tailwindcssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+    ],
+    image: heartchain,
+    deploymenturl: "",
+    githuburl: "https://github.com/truecolor1021/heartchain-presale-sui",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
